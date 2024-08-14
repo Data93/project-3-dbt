@@ -1,0 +1,31 @@
+[0m00:26:59.340885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9905e688f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99075d3dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9907087500>]}
+
+
+============================== 00:26:59.359843 | 0c5b59a9-708d-461d-a6b7-fd5f174cbcb4 ==============================
+[0m00:26:59.359843 [info ] [MainThread]: Running with dbt=1.8.5
+[0m00:26:59.361273 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/aminudin_93/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:26:59.509696 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/aminudin_93/.dbt')}
+[0m00:26:59.510624 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m00:33:16.061377 [debug] [MainThread]: Starter project path: /mnt/c/Users/Aminudin/Documents/Digital Skola - Bootcamp DE 2/belajar_docker/dbt/env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m00:33:16.272689 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:33:16.274067 [info ] [MainThread]: Setting up your profile.
+[0m00:38:06.473906 [info ] [MainThread]: Profile data_warehouse written to /home/aminudin_93/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:38:06.479318 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 646.0253, "process_user_time": 1.40727, "process_kernel_time": 0.381817, "process_mem_max_rss": "91104", "process_in_blocks": "31704", "process_out_blocks": "8"}
+[0m00:38:06.481031 [debug] [MainThread]: Command `dbt init` succeeded at 00:38:06.480807 after 646.03 seconds
+[0m00:38:06.483378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9905370800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9905cd4aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9905822cf0>]}
+[0m00:38:06.484886 [debug] [MainThread]: Flushing usage events
