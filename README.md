@@ -37,8 +37,9 @@ Ensure you have the following installed:
     1. pip3 install dbt-core
     2. pip3 install dbt-postgres
 4. Initiate DBT project
+   
    dbt init
-5. Create profiles.yml
+6. Create profiles.yml
    data_warehouse:
   outputs:
     dev:
@@ -60,7 +61,7 @@ Ensure you have the following installed:
       type: postgres
       user: postgres
   target: dev
-6. Run debug, if all connections passed then move to next step
+7. Run debug, if all connections passed then move to next step
    dbt debug
    
 # Data Modelling
@@ -69,12 +70,12 @@ Ensure you have the following installed:
     2. intermediete: Fact and dim table
     3. gold: Mart
 2. Login to Postgres
-   \c data_warehouse
-create schema dbt_dev_raw;
-create schema dbt_dev_intermediate;
-create schema dbt_dev_mart;
+- \c data_warehouse
+- create schema dbt_dev_raw;
+- create schema dbt_dev_intermediate;
+- create schema dbt_dev_mart;
 
-3. Create raw model and write it to raw_dev schema using DBT
+4. Create raw model and write it to raw_dev schema using DBT
     - payment
     - rental
     - staff
@@ -84,7 +85,7 @@ create schema dbt_dev_mart;
     - film
     - film_actor
     - actor
-4. Create sources.yml
+5. Create sources.yml
    version: 2
 sources:
   - name: public
