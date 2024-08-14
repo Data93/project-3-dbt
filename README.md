@@ -23,11 +23,10 @@ Ensure you have the following installed:
 2. Run this to restore backup file
    docker exec -it <postgres container name> bash
    create database data_warehouse
-   # quit database
+   quit database
    \q
-   # Run in terminal
+   Run in terminal
    pg_restore -U postgres -d data_warehouse /dvdrental
-
 3. psql -U postgres
    
 # DBT
