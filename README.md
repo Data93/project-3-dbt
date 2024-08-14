@@ -2,15 +2,15 @@
 This project was created as part of an individual assignment in the "Fast-Track Data Engineer Scholarship" program organized by Digital Skola. 
 This project focuses on dbt, a data transformation tool that enables data analysts and data engineers to transform data in a cloud-based analytics warehouse.
 
-Getting Started
-Prerequisites
+# Getting Started
+# Prerequisites
 Ensure you have the following installed:
 1. docker
 2. python3.7
 3. dbt
 4. postgres (PgAdmin or dbeaver)
 
-# Fitur Utama
+# Preparing your tools and data
 1. Start Postgres Database on Docker
 2. Sample Data Here: https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/
 3. Downloads [dvdrental.zip](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
