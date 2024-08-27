@@ -19,7 +19,7 @@ Ensure you have the following installed:
 # For you that run Postgres in Docker
 
 1. If you run Postgres with docker then run this command to mount path to container
-   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5433:5432 -v ./dvdrental:/dvdrental -v dbt-postgres:/var/lib/postgresql/data -d postgres-test:12
+   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=<your password> -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5050:5050 -v ./dvdrental:/dvdrental -v dbt-postgres:/var/lib/postgresql/data -d postgres-test:12
 2. Run this to restore backup file
    docker exec -it <postgres container name> bash
    create database data_warehouse
